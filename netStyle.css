@@ -1,0 +1,220 @@
+* {
+
+    font-family: 'grayscale', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    
+    
+    
+
+}
+
+body {
+    background-image: url("./src/imgnet/imagembacknetflix.jpg");
+    background-repeat: no-repeat;
+    
+    
+
+
+}
+
+#nome {
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#mid-container {
+
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+
+}
+
+.entrada {
+
+    text-align: left;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+
+
+.div-container {
+
+    border: 10px solid #0000001c;
+    padding: 20px 0 30px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.75);
+    margin-bottom: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 60px;
+
+}
+
+input {
+
+    margin: 13px;
+    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    background-color: rgb(23, 23, 23);
+    border: 1px solid #30363d;
+    border-width: 0.1px;
+    color: white;
+
+
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: auto;
+    margin-bottom: 80px;
+
+
+}
+
+input[type="checkbox"]:checked {
+    background-color: gray;
+}
+
+.entrar {
+    margin: 13px;
+    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    background-color: #e50914;
+    border: 10px solid black;
+    border-width: 0.1px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+span.word+span {
+
+    margin-left: 70px;
+
+}
+
+span.word2+span {
+
+    margin-left: 2px;
+
+}
+
+.word2 {
+
+    color: #737373;
+    margin-left: -115px;
+
+}
+
+
+
+p span {
+
+    color: #1f6feb;
+}
+
+a {
+    text-decoration: none;
+    color: #737373;
+
+}
+
+footer {
+
+    
+    color: #737373;
+    border: 10px solid #0000001c;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.897);
+
+
+}
+
+input[type="text"] {
+
+    padding-left: 20px;
+}
+
+
+#reCAPTCHA {
+
+    margin-top: 15px;
+    margin-bottom: 60px;
+
+}
+
+footer p.Perguntas {
+
+    margin-top: 25px;
+    color: #737373;
+}
+
+
+footer p span {
+
+    margin-left: 120px;
+    color: #737373;
+
+
+}
+
+footer p {
+
+    margin-left: 350px;
+    
+}
+
+.informacoes {
+
+    margin-left: 110px;
+
+}
+
+.p2 {
+
+    margin-top: 10px;
+}
+
+* select {
+
+    border: #30363d;
+    background-color: rgba(0, 0, 0, 0.602);
+    color: white;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 20px;
+
+}
+label{
+
+   color: #737373;
+}
+
+.assine{
+
+    color: white;
+}
+
+#total{
+
+    background-color: rgba(0, 0, 0, 0.541);
+}
